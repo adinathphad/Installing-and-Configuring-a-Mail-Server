@@ -1,0 +1,7 @@
+postfix start
+postfix reload
+mailq
+postqueue -p
+tail -f /var/log/mail.log
+echo "Hello" | mail -s "Test" ben@localhost
+mail
